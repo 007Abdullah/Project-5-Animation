@@ -33,12 +33,12 @@ const AboutSection = () => {
                 <StyledDescription>
                     <div className="title">
                         <StyledHide>
-                            <motion.h2 variants={headlineAnim}>Hi, I'm Matt</motion.h2>
+                            <motion.h2 variants={headlineAnim}>Hi, I'm Abdullah</motion.h2>
                         </StyledHide>
                         <StyledHide>
                             <motion.h2 variants={headlineAnim}>
-                                <span> Front-end</span> Developer
-                        </motion.h2>
+                                <span> Mern Stack</span> Developer
+                            </motion.h2>
                         </StyledHide>
                     </div>
                     <motion.p variants={titleAnim}>This Portfolio was built with <span style={{ color: 'rgb(1, 225, 255)' }}>React.js</span> and <br /> animated with <span style={{ color: '#ff00b3' }}>Framer Motion</span></motion.p>
@@ -46,13 +46,13 @@ const AboutSection = () => {
                         <motion.button whileHover={{ y: -10, transition: { duration: .02 } }} variants={titleAnim} style={{ marginRight: '.5rem' }}>Projects</motion.button>
                         <motion.button whileHover={{ y: -10, transition: { duration: .02 } }} variants={titleAnim}>
                             Contact me
-                    </motion.button>
-                        <motion.a whileHover={{ y: -10, transition: { duration: .3 } }} href="https://github.com/Fittocode" className="brand-icon">
+                        </motion.button>
+                        <motion.a whileHover={{ y: -10, transition: { duration: .3 } }} href="https://github.com/007Abdullah" className="brand-icon">
                             <StyledBrandIcon variants={titleAnim}>
                                 <FontAwesomeIcon size="3x" icon={faGithub} />
                             </StyledBrandIcon>
                         </motion.a>
-                        <motion.a whileHover={{ y: -10, transition: { duration: .3 } }} href="https://www.linkedin.com/in/matt-harrison-5697b363/" className="brand-icon">
+                        <motion.a whileHover={{ y: -10, transition: { duration: .3 } }} href="https://www.linkedin.com/in/muhammad-abdullah-235170171/" className="brand-icon">
                             <StyledBrandIcon2 variants={titleAnim}>
                                 <FontAwesomeIcon className="brand-icon" size="3x" icon={faLinkedin} />
                             </StyledBrandIcon2>

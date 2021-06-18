@@ -9,6 +9,8 @@ const ContactMe = () => {
     return (
         <StyledContact exit="exit" variants={pageAnimation} initial='hidden' animate="enter" style={{ color: '#fff' }} >
             <h1>Contact Me</h1>
+            
+        
         </StyledContact>
     )
 }
