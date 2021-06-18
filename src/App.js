@@ -1,14 +1,12 @@
 import { React, useState } from 'react'
 // Global Style
 import GlobalStyle from './components/GlobalStyle'
-import "./styles.css";
+import "./style.css";
 // import pages
 import AboutSection from './components/AboutSection'
-import ContactMe from './pages/ContactMe'
-import Projects from './pages/Projects'
-import MovieDetail from './pages/MovieDetail'
+import ContactMe from './components/pages/ContactMe';
 // Import navbar
-import { Navbar } from './components/nav/Navbar';
+import { Navbar } from './components/Navbar/Navbar';
 // Router
 import { Switch, Route, useLocation } from 'react-router-dom'
 // import animate
@@ -26,12 +24,6 @@ function App() {
         <Switch location={location} key={location.pathname}>
           <Route path="/" exact>
             <AboutSection />
-          </Route>
-          <Route path="/projects" exact>
-            <Projects />
-          </Route>
-          <Route path="/work/:id">
-            <MovieDetail />
           </Route>
           <Route path="/contact">
             <ContactMe />
